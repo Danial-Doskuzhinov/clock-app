@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: aliceblue;
+    background-image: url("../public/desktop=day.svg");
+  }
