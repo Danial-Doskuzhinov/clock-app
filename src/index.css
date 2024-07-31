@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    color: aliceblue;
-    background-image: url("../desktop=day.svg");
-  }
+body {
+  color: aliceblue;
+  
+}
+
+.bg-day {
+  @apply bg-no-repeat bg-cover;
+  background-image: url('../desktop=day.svg');
+}
+
+.bg-night {
+  @apply bg-no-repeat bg-cover;
+  background-image: url('../desktop-night.svg');
+}
