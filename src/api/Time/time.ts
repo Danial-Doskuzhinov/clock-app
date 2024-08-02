@@ -16,7 +16,7 @@ export interface TimeData {
 
 export default async function fetchData(): Promise<TimeData | null> {
   try {
-    const response = await fetch('http://localhost:3000/proxy?url=https://timeapi.io/api/Time/current/zone?timeZone=Asia/Almaty', {
+    const response = await fetch('https://proxy-git-main-danials-projects-6a755245.vercel.app/api/proxy?url=https://timeapi.io/api/Time/current/zone?timeZone=Asia/Almaty', {
       method: 'GET',
     });
 
